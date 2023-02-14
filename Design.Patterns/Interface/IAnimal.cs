@@ -1,4 +1,4 @@
-namespace Design.Patterns.Behavioral.Interface;
+namespace Design.Patterns.Interface;
 
 public interface IAnimal
 {

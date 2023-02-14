@@ -1,6 +1,6 @@
-using Design.Patterns.Behavioral.Interface;
+using Design.Patterns.Interface;
 
-namespace Design.Patterns.Behavioral.Entity;
+namespace Design.Patterns.Entity;
 
 public class Cow : IAnimal
 {
