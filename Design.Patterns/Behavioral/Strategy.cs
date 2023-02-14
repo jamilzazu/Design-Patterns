@@ -1,6 +1,6 @@
 using Design.Patterns.Behavioral.Entity;
 
-namespace Design.Patterns.Behavioral.Strategy;
+namespace Design.Patterns.Behavioral;
 
 public class Strategy
 {
