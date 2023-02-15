@@ -2,8 +2,10 @@
 
 using Design.Patterns.Patterns.Behavioral;
 using Design.Patterns.Patterns.Creational.AbstractFactory;
+using Design.Patterns.Patterns.Creational.Builder;
 using Design.Patterns.Patterns.Creational.FactoryMethod;
 
 var strategy = new Strategy();
 var factoryMethod = new FactoryMethod();
 var abstractFactory = new AbstractFactory();
+var builder = new Builder();
