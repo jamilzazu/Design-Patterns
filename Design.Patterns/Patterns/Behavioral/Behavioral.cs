@@ -9,4 +9,9 @@ public static class Behavioral
 
         new Strategy.Strategy();
     }
+
+    public static void Visitor()
+    {
+        new Visitor.Visitor();
+    }
 }

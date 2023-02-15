@@ -5,6 +5,7 @@ using Design.Patterns.Patterns.Creational;
 using Design.Patterns.Patterns.Structural;
 
 Behavioral.Strategy();
+Behavioral.Visitor();
 Creational.FactoryMethod();
 Creational.AbstractFactory();
 Creational.Builder();
