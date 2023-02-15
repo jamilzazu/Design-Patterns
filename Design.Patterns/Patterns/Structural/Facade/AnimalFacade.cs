@@ -4,9 +4,9 @@ namespace Design.Patterns.Patterns.Structural.Facade;
 
 public class AnimalFacade
 {
-    private readonly Animal _dog;
     private readonly Animal _cat;
     private readonly Animal _cow;
+    private readonly Animal _dog;
 
     public AnimalFacade()
     {

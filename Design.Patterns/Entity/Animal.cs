@@ -10,7 +10,7 @@ public class Animal
     {
         _animal = animal;
     }
-    
+
     public string MakeSound()
     {
         return _animal.MakeSound();

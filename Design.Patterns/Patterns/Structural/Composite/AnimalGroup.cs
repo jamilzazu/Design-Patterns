@@ -12,6 +12,14 @@ public class AnimalGroup : IAnimal
         _animals = new List<Animal>();
     }
 
+    public string MakeSound()
+    {
+        var sound = "";
+        foreach (var animal in _animals) sound += animal.MakeSound() + " ";
+
+        return sound;
+    }
+
     public void AddAnimal(Animal animal)
     {
         _animals.Add(animal);
@@ -20,16 +28,5 @@ public class AnimalGroup : IAnimal
     public void RemoveAnimal(Animal animal)
     {
         _animals.Remove(animal);
-    }
-
-    public string MakeSound()
-    {
-        var sound = "";
-        foreach (var animal in _animals)
-        {
-            sound += animal.MakeSound() + " ";
-        }
-
-        return sound;
     }
 }

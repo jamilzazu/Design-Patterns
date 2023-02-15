@@ -14,4 +14,9 @@ public static class Behavioral
     {
         new Visitor.Visitor();
     }
+
+    public static void Observer()
+    {
+        new Observer.Observer();
+    }
 }

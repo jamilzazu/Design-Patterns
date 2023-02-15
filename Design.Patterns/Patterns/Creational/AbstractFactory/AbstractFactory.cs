@@ -8,7 +8,7 @@ public class AbstractFactory
     {
         IAnimalFactory animalFactory = new AnimalFactory();
         IFoodFactory foodFactory = new FoodFactory();
-        
+
         Console.WriteLine("AbstractFactory:");
         var dog = animalFactory.CreateAnimal("dog");
         var cat = animalFactory.CreateAnimal("cat");
@@ -20,7 +20,7 @@ public class AbstractFactory
         Console.WriteLine($"The dog makes {dog.MakeSound()} and eats {dogFood.Name}");
         Console.WriteLine($"The cat makes {cat.MakeSound()} and eats {catFood.Name}");
         Console.WriteLine($"The cow makes {cow.MakeSound()} and eats {cowFood.Name}");
-        
+
         Console.WriteLine();
     }
 }

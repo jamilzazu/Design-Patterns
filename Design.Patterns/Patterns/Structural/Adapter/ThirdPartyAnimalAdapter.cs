@@ -12,7 +12,7 @@ public class ThirdPartyAnimal
 
 public class ThirdPartyAnimalAdapter : IAnimal
 {
-    private ThirdPartyAnimal animal;
+    private readonly ThirdPartyAnimal animal;
 
     public ThirdPartyAnimalAdapter(ThirdPartyAnimal animal)
     {
