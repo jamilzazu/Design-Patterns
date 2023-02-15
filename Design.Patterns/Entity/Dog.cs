@@ -9,3 +9,8 @@ public class Dog : IAnimal
         return "auau";
     }
 }
+
+public class DogFood : IFood
+{
+    public string Name => "dog food";
+}

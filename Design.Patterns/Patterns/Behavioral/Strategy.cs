@@ -13,5 +13,6 @@ public class Strategy
         Console.WriteLine($"The dog makes {dog.MakeSound()}");
         Console.WriteLine($"The cat makes {cat.MakeSound()}");
         Console.WriteLine($"The cow makes {cow.MakeSound()}");
+        Console.WriteLine();
     }
 }
