@@ -9,4 +9,9 @@ public static class Structural
 
         new Facade.Facade();
     }
+
+    public static void Composite()
+    {
+        new Composite.Composite();
+    }
 }
