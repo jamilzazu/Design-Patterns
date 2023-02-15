@@ -2,7 +2,7 @@ using Design.Patterns.Entity;
 
 namespace Design.Patterns.Patterns.Behavioral;
 
-public class Behavioral
+public static class Behavioral
 {
     public static void Strategy()
     {

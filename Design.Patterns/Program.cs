@@ -4,8 +4,11 @@ using Design.Patterns.Patterns.Behavioral;
 using Design.Patterns.Patterns.Creational.AbstractFactory;
 using Design.Patterns.Patterns.Creational.Builder;
 using Design.Patterns.Patterns.Creational.FactoryMethod;
+using Design.Patterns.Patterns.Structural.Facade;
 
-var strategy = new Strategy();
-var factoryMethod = new FactoryMethod();
-var abstractFactory = new AbstractFactory();
-var builder = new Builder();
+Behavioral.Strategy();
+new FactoryMethod();
+new AbstractFactory();
+new Builder();
+
+new Facade();
