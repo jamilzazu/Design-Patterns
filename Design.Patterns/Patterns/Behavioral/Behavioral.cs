@@ -2,9 +2,9 @@ using Design.Patterns.Entity;
 
 namespace Design.Patterns.Patterns.Behavioral;
 
-public class Strategy
+public class Behavioral
 {
-    public Strategy()
+    public static void Strategy()
     {
         Console.WriteLine("Strategy:");
         var dog = new Animal("dog", new Dog());

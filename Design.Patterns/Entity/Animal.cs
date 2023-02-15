@@ -4,15 +4,15 @@ namespace Design.Patterns.Entity;
 
 public class Animal
 {
-    private readonly IAnimal animal;
+    private readonly IAnimal _animal;
 
     public Animal(string species, IAnimal animal)
     {
-        this.animal = animal;
+        _animal = animal;
     }
-
+    
     public string MakeSound()
     {
-        return animal.MakeSound();
+        return _animal.MakeSound();
     }
 }
