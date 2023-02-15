@@ -10,3 +10,4 @@ Creational.AbstractFactory();
 Creational.Builder();
 Structural.Facade();
 Structural.Composite();
+Structural.Adapter();

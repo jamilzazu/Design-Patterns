@@ -14,4 +14,9 @@ public static class Structural
     {
         new Composite.Composite();
     }
+    
+    public static void Adapter()
+    {
+        new Adapter.Adapter();
+    }
 }
