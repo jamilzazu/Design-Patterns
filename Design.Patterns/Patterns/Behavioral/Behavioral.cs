@@ -19,4 +19,9 @@ public static class Behavioral
     {
         new Observer.Observer();
     }
+    
+    public static void Command()
+    {
+        new Command.Command();
+    }
 }

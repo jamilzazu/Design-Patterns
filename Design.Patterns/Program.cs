@@ -7,6 +7,7 @@ using Design.Patterns.Patterns.Structural;
 Behavioral.Strategy();
 Behavioral.Visitor();
 Behavioral.Observer();
+Behavioral.Command();
 Creational.FactoryMethod();
 Creational.AbstractFactory();
 Creational.Builder();
