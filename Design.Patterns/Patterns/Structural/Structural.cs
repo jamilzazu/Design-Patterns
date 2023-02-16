@@ -10,13 +10,7 @@ public static class Structural
         new Facade.Facade();
     }
 
-    public static void Composite()
-    {
-        new Composite.Composite();
-    }
+    public static void Composite() => new Composite.Composite();
 
-    public static void Adapter()
-    {
-        new Adapter.Adapter();
-    }
+    public static void Adapter() => new Adapter.Adapter();
 }

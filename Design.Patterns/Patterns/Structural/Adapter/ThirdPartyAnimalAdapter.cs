@@ -4,23 +4,31 @@ namespace Design.Patterns.Patterns.Structural.Adapter;
 
 public class ThirdPartyAnimal
 {
-    public string Talk()
+    private const string talk = "squawk";
+
+    protected internal ThirdPartyAnimal()
     {
-        return "squawk";
+    }
+
+    public static string Talk()
+    {
+        return talk;
     }
 }
 
 public class ThirdPartyAnimalAdapter : IAnimal
 {
-    private readonly ThirdPartyAnimal animal;
-
     public ThirdPartyAnimalAdapter(ThirdPartyAnimal animal)
     {
-        this.animal = animal;
     }
 
     public string MakeSound()
     {
-        return animal.Talk();
+        return ThirdPartyAnimal.Talk();
+    }
+
+    public string GetSpecie()
+    {
+        throw new NotImplementedException();
     }
 }

@@ -14,10 +14,12 @@ public class AnimalGroup : IAnimal
 
     public string MakeSound()
     {
-        var sound = "";
-        foreach (var animal in _animals) sound += animal.MakeSound() + " ";
+        return _animals.Aggregate("", (current, animal) => $"{current} {animal.MakeSound()} ");
+    }
 
-        return sound;
+    public string GetSpecie()
+    {
+        throw new NotImplementedException();
     }
 
     public void AddAnimal(Animal animal)

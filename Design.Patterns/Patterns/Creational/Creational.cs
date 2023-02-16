@@ -6,17 +6,11 @@ public static class Creational
     {
         Console.WriteLine("**Creational:");
         Console.WriteLine();
-
+        
         new FactoryMethod.FactoryMethod();
     }
 
-    public static void AbstractFactory()
-    {
-        new AbstractFactory.AbstractFactory();
-    }
+    public static void AbstractFactory() => new AbstractFactory.AbstractFactory();
 
-    public static void Builder()
-    {
-        new Builder.Builder();
-    }
+    public static void Builder() => new Builder.Builder();
 }

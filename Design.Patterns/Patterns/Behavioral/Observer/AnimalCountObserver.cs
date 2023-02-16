@@ -1,6 +1,6 @@
 namespace Design.Patterns.Patterns.Behavioral.Observer;
 
-public class AnimalSoundObserver
+public static class AnimalSoundObserver
 {
     public static void AnimalSoundEventHandler(object sender, string sound)
     {

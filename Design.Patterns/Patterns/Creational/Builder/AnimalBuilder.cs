@@ -3,7 +3,7 @@ using Design.Patterns.Interface;
 
 namespace Design.Patterns.Patterns.Creational.Builder;
 
-public class AnimalBuilder
+public static class AnimalBuilder
 {
     public static Animal Build(string species, IAnimal animal)
     {

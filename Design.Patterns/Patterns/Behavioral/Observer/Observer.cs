@@ -15,9 +15,7 @@ public class Observer
         var dogSoundSubject = new AnimalSoundSubject(dog);
         var catSoundSubject = new AnimalSoundSubject(cat);
         var cowSoundSubject = new AnimalSoundSubject(cow);
-
-        var animalSoundObserver = new AnimalSoundObserver();
-
+        
         dogSoundSubject.AnimalSoundEvent += AnimalSoundObserver.AnimalSoundEventHandler;
         catSoundSubject.AnimalSoundEvent += AnimalSoundObserver.AnimalSoundEventHandler;
         cowSoundSubject.AnimalSoundEvent += AnimalSoundObserver.AnimalSoundEventHandler;

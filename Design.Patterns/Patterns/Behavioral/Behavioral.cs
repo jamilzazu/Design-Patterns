@@ -10,18 +10,9 @@ public static class Behavioral
         new Strategy.Strategy();
     }
 
-    public static void Visitor()
-    {
-        new Visitor.Visitor();
-    }
+    public static void Visitor() => new Visitor.Visitor();
 
-    public static void Observer()
-    {
-        new Observer.Observer();
-    }
-    
-    public static void Command()
-    {
-        new Command.Command();
-    }
+    public static void Observer() => new Observer.Observer();
+
+    public static void Command() => new Command.Command();
 }

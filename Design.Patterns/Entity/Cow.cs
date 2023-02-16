@@ -8,6 +8,11 @@ public class Cow : IAnimal
     {
         return "mooo";
     }
+
+    public string GetSpecie()
+    {
+        throw new NotImplementedException();
+    }
 }
 
 public class CowFood : IFood
